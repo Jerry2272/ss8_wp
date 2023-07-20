@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap-css-link -->
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+  <!-- style.css-link -->
+  <link rel="stylesheet" href="assets/css/default.css">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="assets/font_6/css/all.min.css">
+  <title>#StartUpSouth8-Starup Conference</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!-- header-navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/images/ss8-logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa fa-bars" onclick="changeIcon(this)"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active-nav" href="#" role="button" aria-expanded="false">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About <span><i class="fa fa-angle-down"></i></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item fw-bold" href="#">#StartupSouth</a></li>
+              <li><a class="dropdown-item" href="#">#StartupSouth 8</a></li>
+              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><a class="dropdown-item" href="#">Partners</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Agenda <span><i class="fa fa-angle-down"></i></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item fw-bold" href="#">Host a Session</a></li>
+              <li><a class="dropdown-item" href="#">Plenary Sessions</a></li>
+              <li>
+              </li>
+              <li><a class="dropdown-item" href="#">Break-out Sessions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Speakers
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Updates
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Awards
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex justify-content-center">
+          <button class="btn btn-sponsor me-3 ms-3" type="submit">Sponsor</button>
+          <button class="btn btn-register" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero-section -->
+  <div id="hero-section" class="div_section mb-0 pb-0">
+    <div class="container-fluid hero-overlay">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6 order-lg-first order-md-first order-last text-hero">
+          <div class="text">
+            <h1><span>Deep</span> <sup class="sube">&</sup> <br> <span>Bold:</span></h1>
+            <p class="my-3">
+              5IR, Emerging Realities, Regional Economic Imperatives & The Role of Innovation
+            </p>
+            <h6 class="mt-xs-5"><small>5-6 October, 2023 | Port Harcourt, nigeria</small></h6>
+            <div class="button-class">
+              <button class="btn btn-sponsor me-3 sponsor-register" type="submit">Sponsor</button>
+              <button class="btn btn-register sponsor-register" type="submit">Register</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="hero-image" id="img-hero">
+            <img src="assets/images/ss8-hero-img.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="overlay-section"></div>
+    </div>
+  </div>
+
+  <!-- hero-section-attachment -->
+  <div class="container-fluid hero-section-attachment  mt-0 sliding">
+    <div class="row attachment-slide text-center">
+      <div class="col-lg-2 col-2">
+        <h1>50+</h1>
+        <h6><small>Sessions</small></h6>
+      </div>
+      <div class="col-lg-2 col-2">
+        <h1>80+</h1>
+        <h6><small>Speakers</small></h6>
+      </div>
+      <div class="col-lg-2 col-2">
+        <h1>11</h1>
+        <h6><small>States</small></h6>
+      </div>
+      <div class="col-lg-2 col-2">
+        <h1>13+</h1>
+        <h6><small>Cities</small></h6>
+      </div>
+      <div class="col-lg-2 col-2">
+        <h1>12K+</h1>
+        <h6 class="small-text"><small>Square Kilometers</small></h6>
+      </div>
+      <div class="col-lg-2 col-2">
+        <h1>60M+</h1>
+        <h6><small>People</small></h6>
+      </div>
+</div>
+    <div class="overlay-hero-attachment-section"></div>
+  </div>
+
+
+  <!-- about-section -->
+  <div id="about-section" class="container-fluid div_section pb-lg-5 pb-sm-1">
+    <div class="container">
+      <div class="row justify-content-center gy-5">
+        <div class="col-lg-7 order-last order-lg-first">
+          <div class="about-content p-3">
+            <h1>About #StartupSouth8</h1>
+            <h4 class="my-5">
+              #StartupSouth Conference continues to be the premiere regional gathering for innovators catalyzing
+              innovation, encouraging cross-pollination of ideas and fostering collaborations that transcend
+              geographical boundaries. 
+              #StartupSouth8 theme "Deep & Bold: 5IR, Emerging Realities, Regional Economic Imperatives & The Role of
+              Innovation explores the rapidly evolving era, as the 5IR has ushered in a transformative wave of
+              technological advancements, blurring the lines between the physical, digital, and biological spheres. As
+              we witness groundbreaking developments in artificial intelligence, blockchain, biotechnology, robotics,
+              and more, it becomes imperative to comprehend the far-reaching implications of these emerging realities
+              on
+              our society, economy, and daily lives.
+              The thought-provoking discussions, interactive sessions, and collaborative networking by visionary
+              entrepreneurs, industry leaders, and innovation enthusiasts will uncover the challenges and
+              opportunities
+              of this transformative era.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="images">
+            <img src="assets/images/ss8-about-img.png" alt="">
+            <img src="assets/images/ss8-about-image2.png" alt="" class="img-2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- what-to-expect -->
+  <div id="what-to-expect" class="container-fluid mb-0 pb-lg-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10  pt-sm-4">
+        <h1 class="text-lg-center">What to expect at #StartupSouth8</h1>
+        <p class="my-5">
+          Through engaging keynotes, interactive panels, dynamic workshops, and networking sessions, we provide a
+          platform
+          for knowledge exchange, empowering participants to harness the power of innovation leveraging our unique
+          regional economic landscapes. The thought-provoking discussions, interactive sessions, and collaborative
+          networking by visionary entrepreneurs, industry leaders, and innovation enthusiasts will uncover the
+          challenges
+          and opportunities of this transformative era.  
+          Gain unique regional perspectives and collectively shape a future driven by innovation, where economic
+          imperatives and emerging realities converge
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center gy-lg-5 gy-3 text-center">
+      <div class="col-lg-10 col-sm-12">
+        <div class="row gx-lg-5">
+          <div class="col-lg-6 text-center">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/startup-pitch-icon2.png" alt="">
+              </div>
+              <div>
+                <h6>Keynotes</h6>
+                <p>
+                  Listen to top business leaders as they set the stage for thematic conversations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/panels-icon2.png" alt="">
+              </div>
+              <div>
+                <h6>Panels</h6>
+                <p>
+                  Join the discussion by ecosystem leader, gain insights into diverse subject matters.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="row gx-lg-5">
+          <div class="col-lg-6">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/fireside-chat-icon2.png" alt="">
+              </div>
+              <div>
+                <h6>Fireside Chats</h6>
+                <p>
+                  Hear the stories from the leaders themselves, and see perspectives.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/panels-icon3.png" alt="">
+              </div>
+              <div>
+                <h6>Masterclasses</h6>
+                <p>
+                  Learn from top experts and professionals, and fuel your growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="row gx-lg-5">
+          <div class="col-lg-6">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/networking-icon.png" alt="">
+              </div>
+              <div>
+                <h6>Networking</h6>
+                <p>
+                  Meet and connect with founders, investors, top business leaders, policy makers, creatives, brand
+                  managers, creators and influencers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/pitchin-icon.png" alt="">
+              </div>
+              <div>
+                <h6>Startup Pitches</h6>
+                <p>
+                  Hear from our founders who are building the next big thing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="keynotes d-lg-flex">
+              <div class="keynotes-img p-5">
+                <img src="assets/images/award-icon.png" alt="">
+              </div>
+              <div>
+                <h6> Awards </h6>
+                <p>
+                  Top player in the ecosystem both regional and national, with you votes and a few other criteria will
+                  be recognized and presented awards for their contribution to the growth of the ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button-expect text-center">
+      <button class="btn btn-sponsor me-3 sponsor-register" type="submit">Sponsor</button>
+      <button class="btn btn-register sponsor-register" type="submit">Register</button>
+    </div>
+  </div>
+
+  <!-- attendees-preview -->
+  <div id="attendee-preview-section" class="mt-0">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-6">
+          <h1 class="pt-3 text-lg-start text-center text-white">What Attendees are saying</h1>
+        </div>
+        <div class="col-lg-4 ms-lg-auto">
+          <div class="greenbii-content p-4 float-lg-end">
+            <img src="assets/images/greenbill-logo.png" alt="" class="greenbii-img my-2 img-fluid">
+            <div class="d-flex">
+              <img src="assets/images/coma.png" class="coma me-lg-3" alt="">
+              <div>
+                <p class="pt-3">
+                  #StartupSouth4 was very pivotal to our growth as a Technology startup team. The insights we gained
+                  are
+                  still relevant till date.
+                </p>
+                <h5 class="pt-3">Uyi Vincent Edigin</h5>
+                <h6>CEO & Co-Founder, GreenBii Technologies</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5 gy-3">
+        <div class="col-lg-4">
+          <div class="krfood-content p-3">
+            <img src="assets/images/kr-food.png" alt="" class="krfood-img my-2">
+            <div class="d-flex">
+              <img src="assets/images/coma.png" class="coma me-lg-3" alt="">
+              <div>
+                <p class="pt-3">
+                  Talking about my Startupsouth5 experience gets me emotional. Our product got rave reviews from the
+                  audience, we networked, got funding, mentorship, media attention & more. Today, we’ve expanded our
+                  reach to 6 cities across Nigeria & foot prints in the diaspora market.
+                </p>
+                <h5 class="pt-3 small"><small>Ikechukwu kingsley Amajuoyi</small></h5>
+                <h6>Founder, KR Foods</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="krfood-content p-3">
+            <img src="assets/images/house-africa.png" alt="" class="house-africa my-2">
+            <div class="d-flex">
+              <img src="assets/images/coma.png" class="coma me-lg-3" alt="">
+              <div>
+                <p class="pt-3">
+                  My journey as a founder was redefined during StartupSouth4. Learning from mentors and sharing ideas
+                  with other entrepreneurs at events like this has helped me grow. I strongly recommend #Startupsouth7
+                  to anyone building a tech solution or interested in the startup space.
+                </p>
+                <h5 class="pt-3 small"><small>Ndifreke Ikokpu</small></h5>
+                <h6>Co-Founder, HouseAfrica</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="krfood-content p-3">
+            <img src="assets/images/greenage.png" alt="" class="greenage-img my-2">
+            <div class="d-flex">
+              <img src="assets/images/coma.png" class="coma me-lg-3" alt="">
+              <div>
+                <p class="pt-2">
+                  Coming to #StartupSouth6 was an eye opener. I saw how aspiring the Nigerian youths are in the South
+                  east/South south ecosystem. The nature of the program was quite infusing with masterclasses tailored
+                  to meet participants objectives. It was not just an event, it was an absolute conference.
+                </p>
+                <h5 class="pt-0 small"><small>Ogechukwu Uchechukwu</small></h5>
+                <h6>Co-Founder, Greenage Technologies</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured-Sponsors-section -->
+  <div id="featured-sponsor-section" class="div_section mb-0">
+    <div class="container text-center">
+      <h1>Featured Sponsors</h1>
+      <p class="text-center">Few of the top brands we have worked with</p>
+      <div class="row mt-lg-5 pt-lg-5 gy-3">
+        <div class="col-lg-3 col-6">
+          <img src="assets/images/bristish-logo.png" alt="" class="british-logo img-fluid">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img src="assets/images/google-development.png" alt="" class="google-developers img-fluid">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img src="assets/images/microsoft.png" alt="" class="microsoft img-fluid">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img src="assets/images/sterling-bank-logo.png" alt="" class="sterling-bank-logo img-fluid">
+        </div>
+      </div>
+      <div class="row mt-lg-5 justify-content-center gy-3">
+        <div class="col-lg-3 col-6">
+          <img src="assets/images/meta-logo.png" alt="" class="img-fluid meta-logo">
+        </div>
+        <div class="col-lg-2 col-6">
+          <img src="assets/images/sean-angel-logo.png" alt="" class="img-fluid sean-logo">
+        </div>
+        <div class="col-lg-2 col-6">
+          <img src="assets/images/bolt-logo.png" alt="" class="bolt-logo img-fluid">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img src="assets/images/bank-of-industry.png" alt="" class="img-fluid bank-of">
+        </div>
+        <div class="col-lg-2 col-12">
+          <img src="assets/images/main-one-logo.png" alt="" class="main-one-logo img-fluid">
+        </div>
+      </div>
+      <div class="mt-5  text-lg-center">
+        <button class="btn become-sponsor" type="submit">Become a Sponsor</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- why-attend-section -->
+  <div id="why-attend-section" class="div_section">
+    <div class="container">
+      <h2 class="text-center py-5">Why Attend?</h2>
+      <div class="row justify-content-center gx-lg-5 gy-4">
+        <div class="col-lg-6">
+          <div class="engage-item p-5">
+            <div class="d-flex">
+              <div class="engage-img me-2"> <img src="assets/images/networking-engage.png" alt="" class="img-fluid">
+              </div>
+              <h6 class="mt-3">Engage</h6>
+            </div>
+            <p class="py-2">
+              #StartupSouth conferences bring together professionals, experts, and industry leaders from diverse
+              backgrounds. This environment presents excellent networking opportunities, allowing you to meet and
+              connect with like-minded individuals, potential clients, collaborators, and mentors.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="engage-item p-5">
+            <div class="d-flex">
+              <div class="invest-img me-2"> <img src="assets/images/knowledge.png" alt="" class=""></div>
+              <h6 class="mt-2">Knowledge and skill enhancement</h6>
+            </div>
+            <p class="py-2">
+              #StartupSouth Conferences offer a platform for industry experts to share their knowledge, insights, and
+              best practices. Gaining new knowledge and skills can enhance your professional expertise and help you
+              stay
+              ahead of the curve.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center gx-lg-5 pt-lg-5 mt-1 gy-4">
+        <div class="col-lg-6">
+          <div class="engage-item p-5">
+            <div class="d-flex">
+              <div class="engage-img me-2"> <img src="assets/images/insight.png" alt="" class="img-fluid"></div>
+              <h6 class="mt-2">Industry updates <br> and insights</h6>
+            </div>
+            <p class="py-2">
+              #StartupSouth conferences provide an opportunity to stay up-to-date with industry news, trends, and
+              regulations. This knowledge can help you anticipate changes, adapt your strategies, and make informed
+              decisions.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="engage-item p-5">
+            <div class="d-flex">
+              <div class="invest-img me-2"> <img src="assets/images/investment-icon.png" alt="" class="img-fluid">
+              </div>
+              <h6 class="mt-3">Investment Opportunity</h6>
+            </div>
+            <p class="py-2">
+              At the #StartupSouth conference, you have the opportunity to discover and engage with promising and
+              innovative startup ideas that you can invest in and foster for long-term growth and rewards.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="button-expect text-center mt-4 pt-5">
+        <button class="btn btn-sponsor me-3 sponsor-register" type="submit">Sponsor</button>
+        <button class="btn btn-register sponsor-register" type="submit">Register</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- community-section -->
+  <div id="community-section" class="div_section mb-0">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <h1 class="pt-5">Join StartupSouth Community</h1>
+          <p class="text-center">Network. Build. Connect. Grow</p>
+          <div class="button-expect text-lg-center mt-4 pt-5">
+            <button class="btn btn-register sponsor-register" type="submit">Join</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-community">
+
+    </div>
+  </div>
+
+  <!-- newsletter-section -->
+  <div id="newletter-section" class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-lg-8 col-lg-offset-2  text-center">
+        <div class="col-lg-12 col-lg-offset-1">
+          <h6>Get Lastest Update</h6>
+          <h1 class="py-2">Subscribe to Our Newsletter</h1>
+        </div>
+        <form class="row pt-5 gx-0" action="#">
+          <div class="form-group col-lg-4"> <input type="text" class="text-input" placeholder="Full Name"></div>
+          <div class="form-group col-lg-5"> <input type="email" class="email-input" placeholder="E-mail"></div>
+          <div class="form-group col-lg-3">
+            <div class="subcribe">
+              <button class="btn btn-subcribe" type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 logo">
+          <img src="assets/images/startupsouth-white-logo.png" alt="" class="mb-3">
+          <p>
+            #StartupSouth brings together policy makers, business leaders, professionals and Investors from around the
+            world to a city in the South-South and Sout-East of Nigeria annually.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mb-3">Explore</h5>
+          <ul>
+            <li><span><a href="#">Co-Working Spaces</a></span></li>
+            <li><span><a href="#">StartupSouth Startups</a></span></li>
+            <li><span class="small"><a href="#">Explore Our Community</a></span></li>
+          </ul>
+
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mb-3">Resoures</h5>
+          <ul>
+            <li><span><a href="#">Become a Partner</a></span></li>
+            <li><span><a href="#">Make Enquires</a></span></li>
+            <li><span><a href="#">Downlaod Event Brochure</a></span></li>
+          </ul>
+
+        </div>
+        <div class="col-lg-3 get-in-touch">
+          <h5 class="mb-3">Get In Touch</h5>
+          <div class="footer_icons_social d-flex">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="ms-3"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="ms-3"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="ms-3"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <span><a href="#">hello@startupsouth.org</a></span>
+          <p>
+            Floor 2, Matoris Place, G.U. Ake Road, Eliozu, Port Harcourt, Rivers, Nigeria
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/javascript/js.js"></script>
+</body>
+
+</html>
